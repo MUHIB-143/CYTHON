@@ -9,9 +9,9 @@ if bitt=="64bit":
 if bitt=="32bit":
     os.system('clear');print(' [~] Your Device is 32 bit');time.sleep(1);print('\n\n[!] Your Python Version :');time.sleep(1);os.system('python --version')
     time.sleep(2)
-    import CY32
+    import CY32.cyt
 else:
-    print('\nYOUR DEVICE 32 BIT NOT SUPPORT')
+    print('\nYOUR DEVICE NOT SUPPORT')
 
 #---------------------------------------------------------#
 #                    THIS TOOL OWNED BY
